@@ -8,8 +8,8 @@
  * ListaNodiF:  lista dei nodi del grafo 'f'
  * ListaArchiE: lista degli archi del grafo 'e'
  * ListaArchiF: lista degli archi del grafo 'f'
- * Rel_archi: SOLUZIONE, ovvero le corrispondenze fra gli archi dei
- *            due grafi
+ * Rel_archi: SOLUZIONE, ovvero la corrispondenza biunivoca fra gli archi dei 
+ *            due grafi che ne determina l'isomorfismo
  */
 
 % grafo diretto e
@@ -25,7 +25,6 @@ f(11,50).
 f(11,45).
 f(10,45).
 f(10,11).
-
 
 iso(ListaArchiE,ListaArchiF,ListaNodiE,ListaNodiF,Rel_archi) :-
     findall((X,Y), e(X,Y), ListaArchiE),           % lista archi del grafo 'e'
