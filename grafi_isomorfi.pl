@@ -1,7 +1,7 @@
 /* Autore: Aldo Franco Dragoni
  * Data: 13 febbraio 2021
  *
- * se due grafi diretti sono isomorfi il goal:
+ * sess due grafi diretti sono isomorfi il goal:
  * ?- iso(-ListaArchiE,-ListaArchiF,-ListaNodiE,-ListaNodiF,-Rel_archi)
  * ha successo e restituisce tutte le variabili argomento, ovvero:
  * ListaNodiE:  lista dei nodi del grafo 'e'
